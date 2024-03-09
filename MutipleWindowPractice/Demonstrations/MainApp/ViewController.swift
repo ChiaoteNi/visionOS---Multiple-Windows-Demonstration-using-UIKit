@@ -17,7 +17,21 @@ class ViewController: UIViewController {
         openWindowButton.setTitle("Open Window", for: .normal)
         openWindowButton.addTarget(self, action: #selector(openWindow), for: .touchUpInside)
 
-        UIStackView(arrangedSubviews: [openWindowButton])
+        let model3DButtons = ModelType.allCases.map { modelType in
+            let button = UIButton(type: .system)
+
+            let title = modelType.title.components(separatedBy: " - ").first
+            button.setTitle(title, for: .normal)
+            button.addTarget(self, action: #selector(openVolumeWindow), for: .touchUpInside)
+
+            let userActivity = NSUserActivity(activityType: "com.Create3DModelWindow")
+            userActivity.userInfo = ["ModelType": modelType.rawValue]
+            button.userActivity = userActivity
+
+            return button
+        }
+
+        UIStackView(arrangedSubviews: [openWindowButton] + model3DButtons)
             .set(\.axis, to: .vertical)
             .set(\.alignment, to: .center)
             .set(\.distribution, to: .equalSpacing)
@@ -39,5 +53,8 @@ class ViewController: UIViewController {
         UIApplication.shared.activateSceneSession(for: request) { error in
             assertionFailure("error: \(error)")
         }
+    }
+
+    @objc private func openVolumeWindow(_ sender: UIButton) {
     }
 }

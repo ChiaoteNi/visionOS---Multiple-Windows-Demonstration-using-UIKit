@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931CEBFA2B8B704200E42824 /* Model3DPresentingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CEBF92B8B704200E42824 /* Model3DPresentingView.swift */; };
+		931CEBFE2B8B9CE000E42824 /* ModelInformation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 931CEBFD2B8B9CE000E42824 /* ModelInformation.plist */; };
+		931CEC012B8BA0C400E42824 /* DemoModels in Frameworks */ = {isa = PBXBuildFile; productRef = 931CEC002B8BA0C400E42824 /* DemoModels */; };
 		932EFAF02B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EFAEF2B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift */; };
 		932EFAF22B7F319D00E0F3F6 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EFAF12B7F319D00E0F3F6 /* SidePanelViewController.swift */; };
 		938181252B8DC63B00D51A46 /* NSObject + Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938181222B8DC63B00D51A46 /* NSObject + Builder.swift */; };
@@ -19,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931CEBF92B8B704200E42824 /* Model3DPresentingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model3DPresentingView.swift; sourceTree = "<group>"; };
+		931CEBFD2B8B9CE000E42824 /* ModelInformation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ModelInformation.plist; sourceTree = "<group>"; };
 		932EFAEF2B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelSceneDelegate.swift; sourceTree = "<group>"; };
 		932EFAF12B7F319D00E0F3F6 /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
 		938181222B8DC63B00D51A46 /* NSObject + Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject + Builder.swift"; sourceTree = "<group>"; };
@@ -32,7 +37,27 @@
 		93F168042B77E6720048AF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		93F167F02B77E6710048AF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931CEC012B8BA0C400E42824 /* DemoModels in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		931CEBF22B8B685500E42824 /* 3DModel */ = {
+			isa = PBXGroup;
+			children = (
+				931CEBF92B8B704200E42824 /* Model3DPresentingView.swift */,
+				931CEBFD2B8B9CE000E42824 /* ModelInformation.plist */,
+			);
+			path = 3DModel;
+			sourceTree = "<group>";
+		};
 		931CEBF32B8B688900E42824 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -45,6 +70,7 @@
 			children = (
 				932EFAED2B7F1CBE00E0F3F6 /* MainApp */,
 				932EFAEE2B7F1CD500E0F3F6 /* SidePannel */,
+				931CEBF22B8B685500E42824 /* 3DModel */,
 			);
 			path = Demonstrations;
 			sourceTree = "<group>";
@@ -123,6 +149,7 @@
 			);
 			name = MutipleWindowPractice;
 			packageProductDependencies = (
+				931CEC002B8BA0C400E42824 /* DemoModels */,
 			);
 			productName = MutipleWindowPractice;
 			productReference = 93F167F32B77E6710048AF93 /* MutipleWindowPractice.app */;
@@ -152,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 93F167EA2B77E6710048AF93;
+			packageReferences = (
+				931CEBFF2B8BA0C400E42824 /* XCLocalSwiftPackageReference "MutipleWindowPractice/Packages/DemoModels" */,
+			);
 			productRefGroup = 93F167F42B77E6710048AF93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,6 +190,18 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F167F12B77E6710048AF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931CEBFE2B8B9CE000E42824 /* ModelInformation.plist in Resources */,
+				93F168002B77E6720048AF93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93F167EF2B77E6710048AF93 /* Sources */ = {
@@ -172,6 +214,7 @@
 				93F167FB2B77E6710048AF93 /* ViewController.swift in Sources */,
 				93F167F72B77E6710048AF93 /* AppDelegate.swift in Sources */,
 				938181272B8DC63B00D51A46 /* UIView + Constraints.swift in Sources */,
+				931CEBFA2B8B704200E42824 /* Model3DPresentingView.swift in Sources */,
 				93F167F92B77E6710048AF93 /* SceneDelegate.swift in Sources */,
 				932EFAF22B7F319D00E0F3F6 /* SidePanelViewController.swift in Sources */,
 			);
@@ -386,6 +429,19 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		931CEBFF2B8BA0C400E42824 /* XCLocalSwiftPackageReference "MutipleWindowPractice/Packages/DemoModels" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MutipleWindowPractice/Packages/DemoModels;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		931CEC002B8BA0C400E42824 /* DemoModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DemoModels;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93F167EB2B77E6710048AF93 /* Project object */;
 }

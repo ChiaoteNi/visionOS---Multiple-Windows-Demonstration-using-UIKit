@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alienWhale1</key>
+	<dict>
+		<key>title</key>
+		<string>Alien Whale - A Glimpse Beyond Earth</string>
+		<key>description</key>
+		<string>A majestic creature envisioned from the depths of extraterrestrial oceans. Unlike any terrestrial marine life, this being features a luminous, translucent body with bio-luminescent spots that illuminate the dark waters of its home planet. Its elongated, streamlined form is adapted for swift navigation through the dense, alien sea, with large, expressive eyes evolved to perceive in the dim light of its subaquatic realm. This model invites viewers to ponder the possibilities of life in the universe, blending the familiar with the fantastical to expand our imagination of cosmic biodiversity.</string>
+	</dict>
+	<key>aztecSculptureWhale2</key>
+	<dict>
+		<key>title</key>
+		<string>Aztec Whale Sculpture II - Celestial Waters</string>
+		<key>description</key>
+		<string>The second piece in the Aztec Whale Sculpture series delves deeper into the spiritual and cosmological significance of the whale within Aztec culture. This 3D model showcases a whale adorned with celestial motifs and iconography, suggesting the animal&apos;s connection to the gods and the heavens. The intricate carvings on its body are thought to represent the stars and constellations, guiding the Aztecs in navigation and timekeeping. This model not only highlights the artistic excellence of the Aztecs but also serves as a bridge connecting the earthly to the divine, emphasizing the holistic view the Aztecs had of the universe</string>
+	</dict>
+	<key>aztecSculptureWhale1</key>
+	<dict>
+		<key>title</key>
+		<string>Aztec Whale Sculpture I - Ancestral Oceans</string>
+		<key>description</key>
+		<string>An Aztec sculpture, portraying a whale as perceived by the ancient civilization. Crafted with meticulous attention to detail, the sculpture is a testament to the Aztecs&apos; profound connection with nature and their marine deities. The whale, a symbol of water&apos;s life-giving and destructive powers, is represented with geometric patterns and symbolic carvings that narrate stories of creation, fertility, and the cyclical nature of life. This digital artifact resurrects the artistic spirit of the Aztecs, inviting viewers to delve into the rich tapestry of pre-Columbian beliefs and their reverence for the natural world.</string>
+	</dict>
+</dict>
+</plist>
