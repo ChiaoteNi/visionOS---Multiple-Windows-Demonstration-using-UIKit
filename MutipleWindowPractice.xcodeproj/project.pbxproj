@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932EFAF02B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EFAEF2B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift */; };
+		932EFAF22B7F319D00E0F3F6 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EFAF12B7F319D00E0F3F6 /* SidePanelViewController.swift */; };
 		938181252B8DC63B00D51A46 /* NSObject + Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938181222B8DC63B00D51A46 /* NSObject + Builder.swift */; };
 		938181262B8DC63B00D51A46 /* Array + SafetyAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938181232B8DC63B00D51A46 /* Array + SafetyAccess.swift */; };
 		938181272B8DC63B00D51A46 /* UIView + Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938181242B8DC63B00D51A46 /* UIView + Constraints.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		932EFAEF2B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelSceneDelegate.swift; sourceTree = "<group>"; };
+		932EFAF12B7F319D00E0F3F6 /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
 		938181222B8DC63B00D51A46 /* NSObject + Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject + Builder.swift"; sourceTree = "<group>"; };
 		938181232B8DC63B00D51A46 /* Array + SafetyAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + SafetyAccess.swift"; sourceTree = "<group>"; };
 		938181242B8DC63B00D51A46 /* UIView + Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Constraints.swift"; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				932EFAED2B7F1CBE00E0F3F6 /* MainApp */,
+				932EFAEE2B7F1CD500E0F3F6 /* SidePannel */,
 			);
 			path = Demonstrations;
 			sourceTree = "<group>";
@@ -61,6 +66,15 @@
 				93F167FA2B77E6710048AF93 /* ViewController.swift */,
 			);
 			path = MainApp;
+			sourceTree = "<group>";
+		};
+		932EFAEE2B7F1CD500E0F3F6 /* SidePannel */ = {
+			isa = PBXGroup;
+			children = (
+				932EFAEF2B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift */,
+				932EFAF12B7F319D00E0F3F6 /* SidePanelViewController.swift */,
+			);
+			path = SidePannel;
 			sourceTree = "<group>";
 		};
 		93F167EA2B77E6710048AF93 = {
@@ -154,10 +168,12 @@
 			files = (
 				938181262B8DC63B00D51A46 /* Array + SafetyAccess.swift in Sources */,
 				938181252B8DC63B00D51A46 /* NSObject + Builder.swift in Sources */,
+				932EFAF02B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift in Sources */,
 				93F167FB2B77E6710048AF93 /* ViewController.swift in Sources */,
 				93F167F72B77E6710048AF93 /* AppDelegate.swift in Sources */,
 				938181272B8DC63B00D51A46 /* UIView + Constraints.swift in Sources */,
 				93F167F92B77E6710048AF93 /* SceneDelegate.swift in Sources */,
+				932EFAF22B7F319D00E0F3F6 /* SidePanelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
