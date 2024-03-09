@@ -12,6 +12,12 @@
 			<array>
 				<dict>
 					<key>UISceneConfigurationName</key>
+					<string>SidePanel</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SidePanelSceneDelegate</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
 					<string>Main</string>
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
