@@ -56,5 +56,13 @@ class ViewController: UIViewController {
     }
 
     @objc private func openVolumeWindow(_ sender: UIButton) {
+        let request = UISceneSessionActivationRequest(
+            role: .windowApplication,
+            userActivity: sender.userActivity,
+            options: nil
+        )
+        UIApplication.shared.activateSceneSession(for: request) { error in
+            assertionFailure("error: \(error)")
+        }
     }
 }

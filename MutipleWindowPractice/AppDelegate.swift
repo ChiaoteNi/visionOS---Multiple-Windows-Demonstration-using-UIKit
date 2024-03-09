@@ -26,11 +26,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     name: "SidePanel",
                     sessionRole: .windowApplication
                 )
+            case "com.CreateVolumeWindow":
+                return UISceneConfiguration(
+                    name: "Present3DModel",
+                    sessionRole: .windowApplicationVolumetric
+                )
             default:
                 break
             }
         }
         return UISceneConfiguration(name: "Main", sessionRole: .windowApplication)
+    }
+
+    func application(_ application: UIApplication, willContinueUserActivityWithType userActivityType: String) -> Bool {
+        true
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
