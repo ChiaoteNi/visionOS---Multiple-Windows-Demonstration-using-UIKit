@@ -31,5 +31,13 @@ class ViewController: UIViewController {
     }
 
     @objc private func openWindow() {
+        let request = UISceneSessionActivationRequest(
+            role: .windowApplication,
+            userActivity: NSUserActivity(activityType: "com.CreateNewSidePanel"),
+            options: nil
+        )
+        UIApplication.shared.activateSceneSession(for: request) { error in
+            assertionFailure("error: \(error)")
+        }
     }
 }
