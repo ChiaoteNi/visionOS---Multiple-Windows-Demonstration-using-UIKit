@@ -10,6 +10,7 @@
 		931CEBFA2B8B704200E42824 /* Model3DPresentingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CEBF92B8B704200E42824 /* Model3DPresentingView.swift */; };
 		931CEBFE2B8B9CE000E42824 /* ModelInformation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 931CEBFD2B8B9CE000E42824 /* ModelInformation.plist */; };
 		931CEC012B8BA0C400E42824 /* DemoModels in Frameworks */ = {isa = PBXBuildFile; productRef = 931CEC002B8BA0C400E42824 /* DemoModels */; };
+		931CEC032B8BAC8300E42824 /* Model3DPresentingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CEC022B8BAC8300E42824 /* Model3DPresentingSceneDelegate.swift */; };
 		932EFAF02B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EFAEF2B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift */; };
 		932EFAF22B7F319D00E0F3F6 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EFAF12B7F319D00E0F3F6 /* SidePanelViewController.swift */; };
 		938181252B8DC63B00D51A46 /* NSObject + Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938181222B8DC63B00D51A46 /* NSObject + Builder.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		931CEBF92B8B704200E42824 /* Model3DPresentingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model3DPresentingView.swift; sourceTree = "<group>"; };
 		931CEBFD2B8B9CE000E42824 /* ModelInformation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ModelInformation.plist; sourceTree = "<group>"; };
+		931CEC022B8BAC8300E42824 /* Model3DPresentingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model3DPresentingSceneDelegate.swift; sourceTree = "<group>"; };
 		932EFAEF2B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelSceneDelegate.swift; sourceTree = "<group>"; };
 		932EFAF12B7F319D00E0F3F6 /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
 		938181222B8DC63B00D51A46 /* NSObject + Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject + Builder.swift"; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		931CEBF22B8B685500E42824 /* 3DModel */ = {
 			isa = PBXGroup;
 			children = (
+				931CEC022B8BAC8300E42824 /* Model3DPresentingSceneDelegate.swift */,
 				931CEBF92B8B704200E42824 /* Model3DPresentingView.swift */,
 				931CEBFD2B8B9CE000E42824 /* ModelInformation.plist */,
 			);
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931CEC032B8BAC8300E42824 /* Model3DPresentingSceneDelegate.swift in Sources */,
 				938181262B8DC63B00D51A46 /* Array + SafetyAccess.swift in Sources */,
 				938181252B8DC63B00D51A46 /* NSObject + Builder.swift in Sources */,
 				932EFAF02B7F312F00E0F3F6 /* SidePanelSceneDelegate.swift in Sources */,

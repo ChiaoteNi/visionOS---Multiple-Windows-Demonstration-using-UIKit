@@ -23,6 +23,15 @@
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 				</dict>
 			</array>
+			<key>UIWindowSceneSessionRoleVolumetricApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Present3DModel</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).Model3DPresentingSceneDelegate</string>
+				</dict>
+			</array>
 		</dict>
 	</dict>
 </dict>
